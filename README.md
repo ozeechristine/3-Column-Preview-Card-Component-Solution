@@ -31,6 +31,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - (https://www.frontendmentor.io/profile/ozeechristine)
 - Twitter - (https://www.twitter.com/ozeechristine)

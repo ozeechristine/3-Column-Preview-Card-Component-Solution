@@ -1,0 +1,127 @@
+:root{
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+    --Verylightgray: hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Verylightgray);
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    position: relative;
+}
+
+.card1{
+    background-color: var(--Brightorange);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card2{
+    background-color: var(--Darkcyan);
+}
+
+.card3 {
+    background-color: var(--Verydarkcyan);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+h1{
+    font-family: "Big Shoulders Display", cursive;
+    color: var(--Verylightgray);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: left;
+    padding: 15px 137px 30px 30px;
+}
+
+p{
+    font-family: "Lexend Deca", sans-serif;
+    color: var(--Transparentwhite);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    padding: 5px 50px 70px 30px;
+}
+
+.btn {
+    background: var(--Verylightgray);
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 50px;
+    width: 55%;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+
+.btn:hover {
+    background: none;
+    color: var(--Transparentwhite);
+    border: 2px solid var(--Transparentwhite);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn1 {
+color: var(--Brightorange);
+}
+
+.btn2 {
+   color: var(--Darkcyan); 
+}
+
+.btn3 {
+  color: var(--Verydarkcyan);  
+}
+
+.image{
+ padding: 40px 150px 20px 30px;   
+}
+
+@media (max-width:600px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 700px;
+    }
+
+    .card1{
+       
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 0px;
+    
+    }
+
+    .card3{
+       
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 5px;
+    }
+    
+}

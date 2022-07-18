@@ -21,7 +21,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/ozeechristine/3-Column-Preview-Card-Component-Solution)
-- Live Site URL: (https://ozeechristine.github.io/3-column-preview-card-component-main/)
+- Live Site URL: (https://ozeechristine.github.io/3-Column-Preview-Card-Component-Solution/)
 
 ### Built with
 
